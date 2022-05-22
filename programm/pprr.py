@@ -1,10 +1,11 @@
-a = int(input("Введи число: "))
+print("Привет!")
+a = int(input("число: "))
 k = 0
 for i in range(1, a + 1):
     if a % i == 0:
         k += 1
 if k == 2:
-    print("Число простое")
+    print("простое")
 else:
-    print("Число непростое")
+    print("непростое")
     
