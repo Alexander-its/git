@@ -7,6 +7,6 @@ for i in range(1, a + 1):
 if k == 2:
     print("простое число")
 else:
-    print("непростое")
+    print("непростое число")
 
     
